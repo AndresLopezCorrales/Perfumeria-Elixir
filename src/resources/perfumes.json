@@ -1,0 +1,277 @@
+{
+    "status": "success",
+    "currency": "MXN",
+    "perfumes": [
+        {
+            "id": 1,
+            "nombre": "Elixir Noir",
+            "precio": 1899,
+            "imagen": "https://compraperfumesoriginales.com/product-images/le-chameau-elixir-noir-6291108526231.png",
+            "marca": "Maison Élixir",
+            "categoria": "Unisex",
+            "familia_olfativa": "Amaderada Oriental",
+            "notas": {
+                "salida": [
+                    "Bergamota",
+                    "Pimienta rosa"
+                ],
+                "corazon": [
+                    "Rosa negra",
+                    "Ámbar"
+                ],
+                "fondo": [
+                    "Oud",
+                    "Vainilla",
+                    "Almizcle"
+                ]
+            },
+            "contenido_ml": 100,
+            "concentracion": "Eau de Parfum",
+            "disponible": true,
+            "rating": 4.8
+        },
+        {
+            "id": 2,
+            "nombre": "Golden Essence",
+            "precio": 1599,
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_752119-MLM96013099170_102025-O-perfume-maderas-golden-essence-hombre-120ml-spray-parfum.webp",
+            "marca": "Aurum Parfums",
+            "categoria": "Femenino",
+            "familia_olfativa": "Floral Gourmand",
+            "notas": {
+                "salida": [
+                    "Mandarina",
+                    "Pera"
+                ],
+                "corazon": [
+                    "Jazmín",
+                    "Flor de azahar"
+                ],
+                "fondo": [
+                    "Vainilla",
+                    "Caramelo"
+                ]
+            },
+            "contenido_ml": 80,
+            "concentracion": "Eau de Parfum",
+            "disponible": true,
+            "rating": 4.6
+        },
+        {
+            "id": 3,
+            "nombre": "Imperial Oud",
+            "precio": 2499,
+            "imagen": "https://ecf541e83f.nxcli.io/public/uploads/all/nhfMli5NZcQzQggYQePqdcuUdCNFBDMNmRdAsBjU.jpg",
+            "marca": "Noir Crown",
+            "categoria": "Masculino",
+            "familia_olfativa": "Amaderada Intensa",
+            "notas": {
+                "salida": [
+                    "Azafrán",
+                    "Nuez moscada"
+                ],
+                "corazon": [
+                    "Oud",
+                    "Cuero"
+                ],
+                "fondo": [
+                    "Sándalo",
+                    "Incienso"
+                ]
+            },
+            "contenido_ml": 120,
+            "concentracion": "Parfum",
+            "disponible": false,
+            "rating": 4.9
+        },
+        {
+            "id": 4,
+            "nombre": "Velvet Bloom",
+            "precio": 1399,
+            "imagen": "https://m.media-amazon.com/images/I/71HqLJsTexL._AC_UF1000,1000_QL80_.jpg",
+            "marca": "Lumière",
+            "categoria": "Unisex",
+            "familia_olfativa": "Floral Amaderada",
+            "notas": {
+                "salida": [
+                    "Lichi",
+                    "Frambuesa"
+                ],
+                "corazon": [
+                    "Rosa",
+                    "Peonía"
+                ],
+                "fondo": [
+                    "Cedro",
+                    "Almizcle blanco"
+                ]
+            },
+            "contenido_ml": 90,
+            "concentracion": "Eau de Toilette",
+            "disponible": true,
+            "rating": 4.5
+        },
+        {
+            "id": 5,
+            "nombre": "Citrus Royale",
+            "precio": 1299,
+            "imagen": "https://fimgs.net/mdimg/perfume-thumbs/375x500.76447.jpg",
+            "marca": "Maison Soleil",
+            "categoria": "Masculino",
+            "familia_olfativa": "Cítrica Aromática",
+            "notas": {
+                "salida": [
+                    "Limón siciliano",
+                    "Toronja"
+                ],
+                "corazon": [
+                    "Lavanda",
+                    "Romero"
+                ],
+                "fondo": [
+                    "Vetiver",
+                    "Almizcle"
+                ]
+            },
+            "contenido_ml": 100,
+            "concentracion": "Eau de Toilette",
+            "disponible": true,
+            "rating": 4.3
+        },
+        {
+            "id": 6,
+            "nombre": "Rose Imperial",
+            "precio": 1799,
+            "imagen": "https://fimgs.net/mdimg/perfume-thumbs/375x500.25336.jpg",
+            "marca": "Château Rose",
+            "categoria": "Femenino",
+            "familia_olfativa": "Floral Clásica",
+            "notas": {
+                "salida": [
+                    "Rosa búlgara",
+                    "Peonía"
+                ],
+                "corazon": [
+                    "Jazmín",
+                    "Iris"
+                ],
+                "fondo": [
+                    "Almizcle blanco",
+                    "Ámbar"
+                ]
+            },
+            "contenido_ml": 75,
+            "concentracion": "Eau de Parfum",
+            "disponible": true,
+            "rating": 4.7
+        },
+        {
+            "id": 7,
+            "nombre": "Amber Silk",
+            "precio": 1999,
+            "imagen": "https://hamiperfumes.com/cdn/shop/products/amber.jpg?v=1658423584&width=2048",
+            "marca": "Velours",
+            "categoria": "Unisex",
+            "familia_olfativa": "Ámbar Especiada",
+            "notas": {
+                "salida": [
+                    "Canela",
+                    "Cardamomo"
+                ],
+                "corazon": [
+                    "Ámbar",
+                    "Madera de cachemira"
+                ],
+                "fondo": [
+                    "Vainilla",
+                    "Benjuí"
+                ]
+            },
+            "contenido_ml": 100,
+            "concentracion": "Eau de Parfum",
+            "disponible": true,
+            "rating": 4.8
+        },
+        {
+            "id": 8,
+            "nombre": "Noir Vetiver",
+            "precio": 1699,
+            "imagen": "https://watsonkennedy.com/cdn/shop/files/38172.jpg?v=1707947637&width=1445",
+            "marca": "Ébène",
+            "categoria": "Masculino",
+            "familia_olfativa": "Amaderada Verde",
+            "notas": {
+                "salida": [
+                    "Bergamota",
+                    "Limón"
+                ],
+                "corazon": [
+                    "Vetiver",
+                    "Geranio"
+                ],
+                "fondo": [
+                    "Musgo de roble",
+                    "Cedro"
+                ]
+            },
+            "contenido_ml": 100,
+            "concentracion": "Eau de Parfum",
+            "disponible": true,
+            "rating": 4.6
+        },
+        {
+            "id": 9,
+            "nombre": "Blossom Pear",
+            "precio": 1499,
+            "imagen": "https://m.media-amazon.com/images/I/81UHmq8UWEL._AC_UF1000,1000_QL80_.jpg",
+            "marca": "Fleur Moderne",
+            "categoria": "Femenino",
+            "familia_olfativa": "Floral Frutal",
+            "notas": {
+                "salida": [
+                    "Pera",
+                    "Manzana"
+                ],
+                "corazon": [
+                    "Fresia",
+                    "Magnolia"
+                ],
+                "fondo": [
+                    "Almizcle",
+                    "Sándalo"
+                ]
+            },
+            "contenido_ml": 85,
+            "concentracion": "Eau de Toilette",
+            "disponible": true,
+            "rating": 4.4
+        },
+        {
+            "id": 10,
+            "nombre": "Oud Divine",
+            "precio": 2899,
+            "imagen": "https://images-static.nykaa.com/media/catalog/product/1/7/1756bb3BEAAA00000366_o4.jpg?tr=w-500",
+            "marca": "Maison Orient",
+            "categoria": "Unisex",
+            "familia_olfativa": "Oud Oriental",
+            "notas": {
+                "salida": [
+                    "Azafrán",
+                    "Incienso"
+                ],
+                "corazon": [
+                    "Oud",
+                    "Rosa de Damasco"
+                ],
+                "fondo": [
+                    "Ámbar",
+                    "Vainilla"
+                ]
+            },
+            "contenido_ml": 110,
+            "concentracion": "Parfum",
+            "disponible": true,
+            "rating": 4.9
+        }
+    ]
+}
