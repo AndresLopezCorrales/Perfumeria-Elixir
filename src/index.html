@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -22,7 +22,13 @@
                     alt="logo perfumeria elixir"></a>
             <button class="nav-btn" data-target="inicio">Inicio</button>
             <button class="nav-btn" data-target="perfumes">Perfumes</button>
-            <button class="nav-btn" data-target="favoritos">Favoritos</button>
+            <a href="#favoritos" class="flex flex-col text-center hidden"><img
+                    class="logo-favoritos mx-auto mb-2 w-20 h-20 animate-pulse" src="./img/ic_filled_heart.png"
+                    alt="icono de corazón lleno">
+                <span class="text-lg">Favoritos</span></a>
+            <a href="./views/login.html" class="flex flex-col text-center"><img
+                    class="logo-login mx-auto mb-2 w-20 h-20" src="./img/ic_login.png" alt="icono de login">
+                <span class="text-lg">Login</span></a>
         </nav>
     </header>
 
@@ -43,8 +49,8 @@
         </section>
 
         <section id="perfumes" class="section perfumes-section p-4">
-            <h2 class="section-title text-3xl md:text-4xl font-semibold text-center mb-8">Nuestros Perfumes</h2>
-            <div class="text-center">
+            <h2 class="section-title text-3xl md:text-4xl font-semibold text-center my-8">Nuestros Perfumes</h2>
+            <div class=" select-div text-center mb-4">
                 <select name="categoria" id="categoria-select"
                     class="border border-gray-300 rounded-md p-2 mb-4 focus:outline-none focus:ring-2 focus:ring-amber-500">
                     <option value="todas">Todas las Categorías</option>
@@ -66,10 +72,21 @@
             </div>
         </section>
 
+        <section id="favoritos" class="section favoritos-section hidden">
+            <h2 class="section-title text-3xl md:text-4xl font-semibold text-center my-8">Tus perfumes favoritos</h2>
+
+            <div id="favoritos-container"
+                class="favoritos-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Perfumes Favoritos se verán aquí -->
+            </div>
+
+        </section>
+
     </main>
 
-    <script src="./js/api_consumer.js"></script>
+    <script type="module" src="./js/api_consumer.js"></script>
     <script src="./js/scroll_buttons.js"></script>
+    <script src="./js/auth_header.js"></script>
 
 </body>
 
