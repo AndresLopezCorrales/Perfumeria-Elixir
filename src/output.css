@@ -579,6 +579,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.perfume-card img:hover {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .left-0 {
   left: 0px;
 }
